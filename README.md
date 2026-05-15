@@ -1,22 +1,24 @@
-# financial-analysis
+# Financial Performance Analysis
 ## Project Overview
-This project focuses on building an interactive financial dashboard to monitor the overall financial health of a company. The dashboard provides insights into revenue, profitability, cash flow, and operational efficiency using key financial KPIs.
-The goal is to enable stakeholders to:
-- Track performance over time
-- Compare actuals vs budget
-- Analyze cash flow and working capital
-- Identify trends and potential risks
+The Financial Performance Dashboard provides a comprehensive analysis of a company’s financial health by tracking revenue growth, profitability, cash flow, and working capital efficiency.
+It enables stakeholders to monitor monthly trends, compare performance against budgets, and evaluate product/service profitability across different regions and timeframes.
 
-## Objectives
-Build a monthly-level interactive dashboard in Microsoft Power BI
-Enable filtering by date, region, and product/service
-Track key financial metrics such as:
-- Revenue
-- Gross Margin %
-- EBITDA %
-- Net Cash
+### Tools Used
+- Power BI – Dashboard design, KPI calculation, and visualization
+- Excel – Data cleaning, transformation, and modeling
+- DAX – Custom measures for financial KPIs
+- Power Query – Data loading and shaping
+ 
+### Objective
+To analyze and visualize the company’s financial performance over time, focusing on:
+- Revenue growth trends
+- Gross profit and EBITDA margins
+- Budget vs actual performance
+- Cash flow movement
+- Product/service-wise revenue distribution
+- Receivables efficiency
 
-## Dataset Description
+### Dataset Description
 The dataset includes the following key components:
 1. Financial Metrics
    - Revenue
@@ -50,17 +52,6 @@ Key Features:
 - Ensured all date fields are properly formatted for time intelligence
 - Created calculated columns for aging buckets
 - Handled missing values where necessary
-
-### Key Insights 
-- Revenue showed fluctuations across months, indicating seasonal trends
-- Gross Margin highlighted cost efficiency variations
-- Cash flow analysis revealed periods of negative net cash
-- Receivables aging indicated potential delays in collections
-
-###  Tools Used
-- Microsoft Power BI
-- Data Modeling
-- DAX (Data Analysis Expressions)
 
 ### Dashboard Features
 1. KPI Cards
@@ -98,3 +89,19 @@ Filters:
 - Region
 - Product/Service
 - Drill-down capabilities for deeper insights
+
+### Key Insights 
+- Revenue Growth: Steady month-over-month increase with December peaking due to strong product demand.
+- Profitability: Gross Margin (45.55%) indicates efficient cost control; EBITDA Margin (24.81%) shows room for operational optimization.
+- Cash Flow: Consistent increase in net cash indicates healthy liquidity and disciplined expense management.
+- Product Performance: Product C and Service X are top performers; Product A and Service Y show potential for growth.
+- Working Capital: Receivables collected within 26–31 days, reflecting efficient cash management.
+
+### Recommendations
+1. Optimize operational costs to improve EBITDA margins.
+2. Reinvest surplus cash into high-performing products and regions.
+3. Focus on cost control for underperforming services.
+4. Continue maintaining a 30-day receivables cycle for liquidity stability.
+
+Conclusion
+The dashboard provides a clear, data-driven view of the company’s financial status, empowering decision-makers to track performance, optimize costs, and plan for sustainable growth. It effectively visualizes financial KPIs and delivers actionable insights into profitability, liquidity, and operational efficiency.
