@@ -103,5 +103,9 @@ Filters:
 3. Focus on cost control for underperforming services.
 4. Continue maintaining a 30-day receivables cycle for liquidity stability.
 
-Conclusion
+### Conclusion
 The dashboard provides a clear, data-driven view of the company’s financial status, empowering decision-makers to track performance, optimize costs, and plan for sustainable growth. It effectively visualizes financial KPIs and delivers actionable insights into profitability, liquidity, and operational efficiency.
+
+## Dashboard Overview
+![Dashboard Preview](https://github.com/data-by-kaka/financial-analysis/blob/main/Image/Financial-image.png)
+
